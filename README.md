@@ -28,5 +28,15 @@ Variance represent approximation error(limitations of the model family)
 9. over-fitting results in models that are more complex than necessary:after learning knowledge they "tend to learn noise". More complex models tend to have more complicated decision boundaries and tend to be more sensitive to noise, and missing examples.
 10. Underfitting does not represents data well enough.
 
+11. various evalutation measures exist in literature that can evaluate predictive performance.
+Most popular for classification:accuracy and error rate, precision recall and F-measure.
+
+accuracy = $\frac { correct predictions }{number of test instances}$
 
 
+error = 1 - accuracy
+
+confustion matrix https://ucsc-courses.github.io/CMPS142-Spring2018/slides/Lecture1_2.pdf P35
+
+12. k-fold	cross	validation	
+13. Discriminative learning:model the problem of text correction as a problem of learning from examples. Goal:learn directly how to make predictions. Model the problem of text correction as a problem of learning from examples. Goal: learn directly how to make predictions
