@@ -50,7 +50,7 @@ value.	E.g.	probability	that	the	label	is	“spam”.
 
 18. Bayesian	Learning:		
 – use	probabilisOc	criterion	to	choose	the	hypothesis	
-– The	hypothesis	can	be	determinisOc:	e.g.	a	Boolean	funcOon,	a	rule	
+– The	hypothesis	can	be	determinisOc:	e.g.	a	Boolean	function,	a	rule	
 – The	criterion	used	to	select	the	hypothesis	is	probabilisOc	
 – It’s	this	process	that	makes	the	difference	
 19. 1.All probabilities are between 0 and 1. Probability of all possible world is 1 , the probability of a disjunction is give by $P(A\vee B)=P(A)+P(B)-P(A\wedge B)$
