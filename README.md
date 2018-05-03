@@ -39,4 +39,32 @@ error = 1 - accuracy
 confustion matrix https://ucsc-courses.github.io/CMPS142-Spring2018/slides/Lecture1_2.pdf P35
 
 12. k-fold	cross	validation	
-13. Discriminative learning:model the problem of text correction as a problem of learning from examples. Goal:learn directly how to make predictions. Model the problem of text correction as a problem of learning from examples. Goal: learn directly how to make predictions
+13. Discriminative learning:model the problem of text correction as a problem of learning from examples. Goal:learn directly how to make predictions. Model the problem of text correction as a problem of learning from examples. Goal: learn directly how to make predictions $P(Y|X)$ It focus on learning about not just the labels but also how instances were generated given those labels.Good at distinguishing between classes:learning boundaries.
+14. Model the problem of text correction as that of generating correct sentences. Goal : learn a model of the data, use it to predict.$P(X,Y)=P(X,Y)P(Y)$It focus on learning about the labels give instances.Good at learning the underlying distribution of the data.
+15. not all probabilistic models are Generative/Bayesian
+	
+17.	Learning	probabilisOc	concepts		
+– You	can	learn	a	concept	which	is	a	funcOon	g:X→[0,1]	
+– g(x)	may	be	interpreted	as	the	probability	that	x	takes	a	certain	
+value.	E.g.	probability	that	the	label	is	“spam”.	
+
+18. Bayesian	Learning:		
+– use	probabilisOc	criterion	to	choose	the	hypothesis	
+– The	hypothesis	can	be	determinisOc:	e.g.	a	Boolean	funcOon,	a	rule	
+– The	criterion	used	to	select	the	hypothesis	is	probabilisOc	
+– It’s	this	process	that	makes	the	difference	
+19. 1.All probabilities are between 0 and 1. Probability of all possible world is 1 , the probability of a disjunction is give by $P(A\vee B)=P(A)+P(B)-P(A\wedge B)$
+
+20. Joint	probability:		
+– Consider	multiple	variables	and	see	how	to	behave	together	
+– Matrix	of	combined	probabiliOes	of	a	set	of	variables	
+21. Conditional probability:
+$P(A|B)=\frac {P(A\wedge B)}{P(B)}$
+
+$P(A\wedge B) = P(A|B)* P(B)$
+
+21. Independence: When two event do not affect each others' probabilities, we call them independent.$P(A\wedge B)= P(A)*P(B)$
+
+$P(A|B)=P(A)$
+
+22. 
